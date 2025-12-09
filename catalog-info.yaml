@@ -1,18 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-service
-  description: A sample microservice for user management Testing Part1
+  name: my-test-service
+  description: A sample Test Service
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/my-org/my-service/tree/main
+    gitHub.com/project-slug: iamsureshgithub/backstage
+    #backstage.io/techdocs-ref: url:https://github.com/my-org/my-service/tree/main
 spec:
   type: service
-  lifecycle: production
-  owner: team-a
-  system: user-management-system
-  dependsOn:
-    - resource:my-database
-  providesApis:
-    - user-api
-  consumesApis:
-    - auth-api
+  lifecycle: experimental
+  owner: development
