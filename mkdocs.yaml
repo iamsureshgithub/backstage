@@ -1,15 +1,15 @@
 site_name: 'Backstage'
-site_description: 'Main documentation for Backstage features and framework APIs'
-repo_url: https://github.com/backstage/backstage
-edit_uri: edit/master/docs
+site_description: 'Main documentation for Backstage Bla Bla Bla'
+repo_url: https://github.com/iamsureshgithub/backstage
+edit_uri: edit/main/docs
 
 plugins:
   - techdocs-core
   - redirects:
       redirect_maps:
-        'index.md': 'overview/what-is-backstage.md'
+        'index.md': 'docs/index.md'
 
 # For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
 nav:
   - Overview:
-      - What is Backstage?: 'overview/what-is-backstage.md'
+      - What is Bla Bla Bla?: 'docs/index.md'
