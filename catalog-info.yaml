@@ -4,7 +4,7 @@ metadata:
   name: my-test-service
   description: A sample Test Service
   annotations:
-    gitHub.com/project-slug: iamsureshgithub/backstage
+    github.com/project-slug: iamsureshgithub/backstage
     #backstage.io/techdocs-ref: url:https://github.com/my-org/my-service/tree/main
 spec:
   type: service
